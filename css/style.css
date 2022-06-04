@@ -1,0 +1,92 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+
+
+
+
+
+
+
+img{
+    pointer-events: none;
+}
+
+body{
+    
+}
+.logo{
+    position:relative;
+    top: 10px;
+  left: 12px;
+}
+
+
+
+.menu{
+    position:relative;
+    display:flex;
+    justify-content:flex-end;
+    margin-top: -35px;
+    right: 12px;
+}
+
+
+.boyem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height:auto;
+    margin-top:-90px;
+}
+
+
+
+h1{
+    text-align:center;
+}
+
+/* @keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 200px, 0);
+    }
+} */
+
+
+main {
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(
+    );
+    -webkit-animation-iteration-count: infinite;
+}
+  
+@-webkit-keyframes bounce {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        -webkit-transform: translate3d(10px, 22px, 0);
+        transform: translate3d(0, 22px, 0);
+    }
+}
+
+
+
+
+
+
+
+
+.paint{
+    position:fixed; 
+}
