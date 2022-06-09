@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Sacramento&display=swap');
 *{
     padding:0px;
     margin:0px;
@@ -16,12 +20,13 @@ img{
 }
 
 body{
-    
+    background-color: #fffffe;
 }
 .logo{
     position:relative;
     top: 10px;
   left: 12px;
+ max-width: 20px;
 }
 
 
@@ -49,6 +54,8 @@ body{
 h1{
     text-align:center;
 }
+
+
 
 /* @keyframes bounce {
     from {
@@ -81,12 +88,38 @@ main {
 }
 
 
+.intro{
+    
+    text-align: center;
+margin-top:70px;
+ font-family: 'Press Start 2P', cursive;
+ font-size: 1rem;
+ color: #2d334a;
+}
 
 
+.bio-bio{
+    text-align: center;
+    padding: 0 5px;
+    font-family: 'Caveat', cursive;
+     font-size: 1.5rem;
+     color: #2d334a;
+    
+}
 
 
-
+.doodle{
+    margin:0 0  0 135px ;
+    margin-top:-84px;
+    
+}
 
 .paint{
     position:fixed; 
 }
+
+
+
+
+
+
